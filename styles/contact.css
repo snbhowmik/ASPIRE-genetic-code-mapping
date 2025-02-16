@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.container {
+    width: 50%;
+    margin: 100px auto 50px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.group-picture {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.contact-list li {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-list a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}

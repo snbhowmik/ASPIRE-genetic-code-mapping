@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genetic Code Analyzer</title>
+    <link rel="stylesheet" href="styles/analyze.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">ASPIRE</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="analyze.html">Analyze</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn">Get Started</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Genetic Code Analyzer</h1>
+        <div class="input-section">
+            <input type="text" id="geneticInput" placeholder="Enter Genetic Code">
+            <button id="analyzeButton">Analyze</button>
+        </div>
+
+        <div class="results">
+            <div class="card">
+                <h2>Anomalies</h2>
+                <p>Detected issues in the genetic code</p>
+                <ul id="anomaliesList"></ul>
+            </div>
+
+            <div class="card">
+                <h2>Sequence Mapping</h2>
+                <p>Presence of known sequences</p>
+                <ul id="mappingResults"></ul>
+            </div>
+
+            <div class="card">
+                <h2>Genetic Code Barcode</h2>
+                <p>Visual representation of the genetic code</p>
+                <div id="barcode" class="barcode-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Advancing genetic research through innovative analysis tools.</p>
+    </footer>
+
+    <script src="js/analyze.js"></script>
+</body>
+</html>
